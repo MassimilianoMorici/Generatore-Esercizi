@@ -58,7 +58,9 @@ const esercizi =
     `D5 EXTRA - Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro e la ritorna senza il primo e l'ultimo carattere. `,
     
 ]
-/*
+
+/* PARTE CONSOLE LOG SOLO JS
+
 const minRange = 0
 const maxRange = esercizi.length 
 
@@ -66,23 +68,24 @@ const randomNumb = Math.floor(Math.random() * (maxRange - minRange) + minRange)
 
 console.log (`Esercizio: ` , esercizi[randomNumb])
 */
+
+
 const qualeEs = function() {
     const minRange = 0
     const maxRange = esercizi.length 
     const randomNumb = Math.floor(Math.random() * (maxRange - minRange) + minRange)
     return esercizi[randomNumb]
-   
 }
 
 const genera = function() {
-    let paragrafo = document.getElementById(`asd`)
+    let paragrafo = document.getElementById(`campoEsercizio`)
     paragrafo.innerText = qualeEs()
-   
 }
+
 console.log (genera)
 
 
-
+// Morici Massimiliano
 
 
 
